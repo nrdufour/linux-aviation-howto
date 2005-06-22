@@ -5,15 +5,15 @@
 <!--
 Nicolas Dufour 2005 ©
 
-Linux Aviation HOWTO
+GNU/Linux Aviation HOWTO
 
 docbook source v 2.0
 -->
 
 <book>
 	<bookinfo>
-		<title>Linux Aviation HOWTO</title>
-		<subtitle>Flying with Linux</subtitle>
+		<title>GNU/Linux Aviation HOWTO</title>
+		<subtitle>Flying with GNU/Linux</subtitle>
 
 		<authorgroup>
 			<author>
@@ -37,10 +37,10 @@ docbook source v 2.0
 		<abstract>
 			<para>
 				This document is intended to provide pointers to software packages
-				that run under Linux and are usefull to pilots (private, commercial or military),
+				that run under GNU/Linux and are usefull to pilots (private, commercial or military),
 				airlines, airports or any actors in the aeronautical domain. I want
 				to encourage everybody to contribute to this document, either by providing
-				pointers to existing software, or by writing new application for Linux.
+				pointers to existing software, or by writing new application for GNU/Linux.
 			</para>
 		</abstract>
 
@@ -48,9 +48,9 @@ docbook source v 2.0
 
 	<preface><title>Introduction</title>
 
-		<para>The business and sport of aviation is about as mission critical as any human endeavor gets. Pilots have an implicit expectation for their aircraft to be well designed, ergonomic, predictable, reliable, and safe to operate. Certificated aircraft are designed and built to engineering and quality standards that far exceed those of <emphasis>any</emphasis> other consumer product.  In my opinion, any computing environment used for aviation related applications should meet similar high standards. I also believe that the open software development model and the Linux operating system is the computing environment with the greatest potential to meet such high standards.</para>
+		<para>The business and sport of aviation is about as mission critical as any human endeavor gets. Pilots have an implicit expectation for their aircraft to be well designed, ergonomic, predictable, reliable, and safe to operate. Certificated aircraft are designed and built to engineering and quality standards that far exceed those of <emphasis>any</emphasis> other consumer product.  In my opinion, any computing environment used for aviation related applications should meet similar high standards. I also believe that the open software development model and the GNU/Linux operating system is the computing environment with the greatest potential to meet such high standards.</para>
 
-		<para>This document is intended to provide pointers to software packages that run under Linux and are usefull to pilots (private, commercial or military), airlines, airports or any actors in the aeronautical domain. Most of the software packages mentioned in this release are freely distributable, and come with source code. However, I will gladly include entries for commercial products from any vendors who are Linux friendly.</para>
+		<para>This document is intended to provide pointers to software packages that run under GNU/Linux and are usefull to pilots (private, commercial or military), airlines, airports or any actors in the aeronautical domain. Most of the software packages mentioned in this release are freely distributable, and come with source code. However, I will gladly include entries for commercial products from any vendors who are GNU/Linux friendly.</para>
 
 		<para>My own personal interests center around air traffic flow management since I have worked 3.5 years for Eurocontrol providing simulations to increase the safety and effeciency in the european sky. I wanted to be pilot, but with my color-blindness I have a bit abadon it. I know work for both USA and Europe world of traffic management, and it's exciting to see the difference and the history which created those.</para>
 
@@ -68,9 +68,9 @@ docbook source v 2.0
 				<revhistory>
 					<revision>
 						<revnumber>2.0</revnumber>
-						<date>TODOOOOO</date>
+						<date>2005-05-21</date>
 						<authorinitials>nd</authorinitials>
-						<revremark>New release for TLDP</revremark>
+						<revremark>New release and rewriting of the whole document.</revremark>
 					</revision>
 					<revision>
 						<revnumber>1.5</revnumber>
@@ -86,7 +86,7 @@ docbook source v 2.0
 						<authorinitials>jp</authorinitials>
 						<revremark>Added a new entry for the AirLog logbook package. Added some additional
 							references to the section on embedded hardware, as well as a short blurb
-							about the availability of Linux for the iPaq handheld. Updated the
+							about the availability of GNU/Linux for the iPaq handheld. Updated the
 							contact information for the author, (new e-mail address).</revremark>
 					</revision>
 					<revision>
@@ -139,7 +139,7 @@ docbook source v 2.0
 		<section><title>Copyright information</title>
 			<!-- The LDP recommends, but doesn't require, the GFDL --> 
 			<para>
-				This document, <emphasis>Linux Aviation HOWTO</emphasis>,
+				This document, <emphasis>GNU/Linux Aviation HOWTO</emphasis>,
 				is copyrighted (c) 2005 by <link linkend="about">Nicolas Dufour</link>.
 			</para>
 			<para>
@@ -167,7 +167,7 @@ docbook source v 2.0
 
 	<chapter><title>Tools</title>
 
-		<para>Here you will find all about existing tools running on Linux for pilots, airlines, airports.</para>
+		<para>Here you will find all about existing tools running on GNU/Linux for pilots, airlines, airports.</para>
 
 		<section><title>Pilot</title>
 
@@ -420,7 +420,7 @@ docbook source v 2.0
 				<section><title>KFLog</title>
 					<para> KFLog is an OpenSource program aimed at glider pilots. It gives You a powerfull tool to plan You flight tasks and analyse Your flights afterwards.</para>
 
-					<para>KFLog is the only flight analyser program available for Linux to be recognized by the <ulink url="http://www.fai.org/gliding/">FAI IGC</ulink>.</para>
+					<para>KFLog is the only flight analyser program available for GNU/Linux to be recognized by the <ulink url="http://www.fai.org/gliding/">FAI IGC</ulink>.</para>
 
 					<para>KFLog projects the flights on a digital vectormap, that contains not only airfields and airspaces, but a complete elevation-map, roads, cities, rivers, and lots of other interesting objects.</para>
 
@@ -455,7 +455,7 @@ docbook source v 2.0
 				<para>The Surface Management System (SMS) increases shared situational awareness of airport surface operations between the Air Traffic Control Tower (ATCT), the Ramp Tower, the air carriers that operate at an airport, and the various airport authorities and other ATC facilities. By increasing situational awareness and providing tools for airport surface traffic management, SMS improves the efficiency and flexibility of airport surface operations.</para>
 				<itemizedlist>
 					<listitem><emphasis>Author</emphasis>: Metron Aviation Inc. <email>bizdevelopment@metronaviation.com</email></listitem>
-					<listitem><emphasis>Latest release</emphasis>: TODO</listitem>
+					<listitem><emphasis>Latest release</emphasis>: Unknown</listitem>
 					<listitem><emphasis>Copyright</emphasis>: Commercial</listitem>
 					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.metronaviation.com/sms_overview.php">http://www.metronaviation.com/sms_overview.php</ulink></listitem>
 				</itemizedlist>
@@ -482,7 +482,7 @@ docbook source v 2.0
 				<para>OpenGC is a multi-platform, multi-simulator, open-source C++ tool for developing and implementing high quality glass cockpit displays for simulated flightdecks. Our goal is simple: support all widely available flight simulators, all widely available operating systems, and provide a selection of gauges that mirrors the diversity of interests within the flightsimming community. I hope you enjoy OpenGC, and encourage you to contribute in any way possible!</para>
 				<itemizedlist>
 					<listitem><emphasis>Author</emphasis>: Damion Shelton <email>damion@opengc.org</email></listitem>
-					<listitem><emphasis>Latest release</emphasis>: NOT SURE (0.55) !! TODO !!</listitem>
+					<listitem><emphasis>Latest release</emphasis>: 0.56</listitem>
 					<listitem><emphasis>Copyright</emphasis>: <xref linkend="bsd" /></listitem>
 					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.opengc.org/">http://www.opengc.org/</ulink></listitem>
 				</itemizedlist>
@@ -538,7 +538,7 @@ docbook source v 2.0
 					<itemizedlist mark='opencircle'>
 						<listitem>NeoKit &copy; is a Computer Based Training environment dedicated to initial training to Air Traffic Control and Management software,</listitem>
 						<listitem>The NeoKit &copy; tools covers the whole training cycle: scenarios preparation, dynamic and interactive training with Record and Replay capabilities and customizable reporting tool for analysis and debriefing,</listitem>
-						<listitem>NeoKit &copy; is developped on the Java platform environment and is so fully interoperable on any operating system (Linux, Windows, etc.),</listitem>
+						<listitem>NeoKit &copy; is developped on the Java platform environment and is so fully interoperable on any operating system (GNU/Linux, Windows, etc.),</listitem>
 						<listitem>Specific plugins dedicated to other Business Domain (e.g. Marine, Military) are easy to develop through the complete set of the Java APIs of NeoKit &copy;.</listitem>
 					</itemizedlist>
 				</para>
