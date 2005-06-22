@@ -587,7 +587,7 @@ docbook source v 2.0
 			<section><title>DAFIF</title>
 				<para>The Digital Aeronautical Flight Information File (or DAFIF) is a set of files that contain data on airports, navaids, waypoints, special use airspace and other facts relevant to flying in the entire world. This data is provided by the US military, through the <ulink url="http://www.nga.mil">National Geospatial Intelligence Agency (NGA)</ulink>, and is primarily developed for the benefit of military aeronautical operations, but was made available to the general public.</para> 
 				<para>Except for the United States, which is also covered by data provided by the <xref linkend="faa"/>, it is usually the ONLY comprehensive digital data available for pilots. Other countries either don't provide digital data at all, or they do it through a proprietary web interface or in non-reusable formats (like PDF files of scans of paper documents). Even within the US, there is data that is available in the DAFIF which is not in the <xref linkend="faa"/> data. For instance, the navaid.com database generators use the DAFIF data to find ICAO identifiers for airports in Alaska, Hawaii, Puerto Rico and other places where there 3 letter <xref linkend="faa"/> id is not enough data to generate the ICAO id.</para>
-				<para><emphasis>Attention!</emphasis> Recently, this source is threaten to be remove of the public access for several reasons. Look <ulink url="http://www.navaid.com/dafif.html">here</ulink> for more details and support the existence of DAFIF.</para>
+				<para><emphasis>Attention!</emphasis> Recently, this source is threaten to be removed of the public access for several reasons. Look <ulink url="http://www.navaid.com/dafif.html">here</ulink> for more details and support the existence of DAFIF.</para>
 				<itemizedlist>
 					<listitem><emphasis>Home Page</emphasis>: <ulink url="https://164.214.2.62/products/digitalaero/index.cfm">https://164.214.2.62/products/digitalaero/index.cfm</ulink></listitem>
 				</itemizedlist>
@@ -596,7 +596,14 @@ docbook source v 2.0
 		</section>
 
 		<section><title>Dynamic streams</title>
-			<para>To be completed.</para>
+			<section><title>LiveATC</title>
+				<para>This site was launched as a resource for those who enjoy listening to live Air Traffic Control (<acronym>ATC</acronym>)...aviation enthusiasts, student pilots, student air traffic controllers, flight simulation enthusiasts, FBO operators, airline operators, and anyone with an interest in aviation communications.</para>
+				<para>A good site to listen, discover and perhaps also learn the language. They propose several live feeds in USA, Canada, Mexico, Europe, Australia, Columbia, or even Dutch caribean !</para>
+					
+				<itemizedlist>
+					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.liveatc.net/">http://www.liveatc.net/</ulink></listitem>
+				</itemizedlist>
+			</section>
 		</section>
 		<!-- end of Dynamic streams section -->
 
