@@ -173,9 +173,9 @@ docbook source v 2.0
 
 			<para>Usually, a pilot has 3 phases in each flight :</para>
 			<itemizedlist>
-				<listitem>preparing his flight plan</listitem>
-				<listitem>navigate safely and accuretly</listitem>
-				<listitem>then analyze the flight to see if something can be improved</listitem>
+				<listitem><para>preparing his flight plan</para></listitem>
+				<listitem><para>navigate safely and accuretly</para></listitem>
+				<listitem><para>then analyze the flight to see if something can be improved</para></listitem>
 			</itemizedlist>
 
 			<section><title>Flight Planning</title>
@@ -191,11 +191,11 @@ docbook source v 2.0
 						systems with X11 Windows and the XView Toolkit.</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>: Steve Tynor</listitem>
-						<listitem><emphasis>Maintainer</emphasis>: John C. Peterson <email>jcp@eskimo.com</email></listitem>
-						<listitem><emphasis>Latest release</emphasis>: 1.4.2, 1999/05/01</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.ibiblio.org/fplan/">http://www.ibiblio.org/fplan/</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>: Steve Tynor</para></listitem>
+						<listitem><para><emphasis>Maintainer</emphasis>: John C. Peterson <email>jcp@eskimo.com</email></para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 1.4.2, 1999/05/01</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.ibiblio.org/fplan/">http://www.ibiblio.org/fplan/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 			</section>
@@ -219,12 +219,12 @@ docbook source v 2.0
 						www.ngdc.noaa.gov. </para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>: Rikard and Henrik Bjorkman <email>hb1@eit.se</email></listitem>
-						<listitem><emphasis>Latest release</emphasis>: 0.38, December 2004</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.eit.se/chartplotter/">http://www.eit.se/chartplotter/</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>: Rikard and Henrik Bjorkman <email>hb1@eit.se</email></para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 0.38, December 2004</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.eit.se/chartplotter/">http://www.eit.se/chartplotter/</ulink></para></listitem>
 						<listitem>
-							<emphasis>Roadmap</emphasis>: 
+							<para><emphasis>Roadmap</emphasis>: </para>
 							<para>First on the wish list of things to do is a converter program so
 								that we can use charts in the BSB format. As I understand there
 								are such programs around but I need to modify the chartplotter
@@ -242,10 +242,10 @@ docbook source v 2.0
 					<para>gpsd is a service daemon that monitors a GPS attached to a host computer through a serial or USB port, making its data on the location/course/velocity of the sensor available to be queried on TCP port 2947 of the host computer. With gpsd, multiple GPS client applications (such as navigational and wardriving software) can share access to a GPS without contention or loss of data. Also, gpsd responds to queries with a format that is substantially easier to parse than the NMEA 0183 emitted by most GPSes. The gpsd distribution includes a linkable C service library and a Python module that developers of gpsd-aware applications can use to encapsulate all communication with gpsd.</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>: Remco Treffkorn <email>remco@emc.rvt.com</email></listitem>
-						<listitem><emphasis>Latest release</emphasis>: 2.10, 2005/02/03</listitem>
-						<listitem><emphasis>Copyright</emphasis><xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://gpsd.berlios.de/">http://gpsd.berlios.de/</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>: Remco Treffkorn <email>remco@emc.rvt.com</email></para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 2.10, 2005/02/03</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis><xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://gpsd.berlios.de/">http://gpsd.berlios.de/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 
@@ -263,10 +263,10 @@ docbook source v 2.0
 						graphic toolkit.</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>:Friedrich Ganter <email>ganter@ganter.at</email></listitem>
-						<listitem><emphasis>Latest release</emphasis>: 2.09, 2004/3/3</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.gpsdrive.de/">http://www.gpsdrive.de/</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>:Friedrich Ganter <email>ganter@ganter.at</email></para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 2.09, 2004/3/3</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.gpsdrive.de/">http://www.gpsdrive.de/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 
@@ -285,10 +285,10 @@ docbook source v 2.0
 						Lowrance receivers.</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>: Miguel Filgueiras <email>mig@ncc.up.pt</email></listitem>
-						<listitem><emphasis>Latest release</emphasis>: 6.2.1, 2004/12/07</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.ncc.up.pt/gpsman/">http://www.ncc.up.pt/gpsman/</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>: Miguel Filgueiras <email>mig@ncc.up.pt</email></para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 6.2.1, 2004/12/07</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.ncc.up.pt/gpsman/">http://www.ncc.up.pt/gpsman/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 
@@ -303,10 +303,10 @@ docbook source v 2.0
 						with a JVM compatible with the 1.1 version of the Java API.</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>: Niels Elgaard Larsen</listitem>
-						<listitem><emphasis>Latest release</emphasis>: 0.9.2beta, 2003/02/07</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://eps.sourceforge.net/">http://eps.sourceforge.net/</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>: Niels Elgaard Larsen</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 0.9.2beta, 2003/02/07</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://eps.sourceforge.net/">http://eps.sourceforge.net/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 			</section>
@@ -334,16 +334,16 @@ docbook source v 2.0
 						(catalogs are provided for both Danish and English).</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Authors</emphasis>:
+						<listitem><para><emphasis>Authors</emphasis>:
 							<itemizedlist>
-								<listitem>Ken Andersen <email>kentan@get2net.dk</email></listitem>
-								<listitem>Frederik Hansen <email>roirex@users.sourceforge.net</email></listitem>
-								<listitem>Steve Brown <email>delancie@users.sourceforge.net</email></listitem>
+								<listitem><para>Ken Andersen <email>kentan@get2net.dk</email></para></listitem>
+								<listitem><para>Frederik Hansen <email>roirex@users.sourceforge.net</email></para></listitem>
+								<listitem><para>Steve Brown <email>delancie@users.sourceforge.net</email></para></listitem>
 							</itemizedlist>
-						</listitem>
-						<listitem><emphasis>Latest release</emphasis>: alpha-0.53-2, 2000/11/25</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://airlog.sourceforge.net/">http://airlog.sourceforge.net/</ulink></listitem>
+						</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: alpha-0.53-2, 2000/11/25</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://airlog.sourceforge.net/">http://airlog.sourceforge.net/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 			</section>
@@ -366,10 +366,10 @@ docbook source v 2.0
 						a shaded terrain map (assuming digital elevation data is available).</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>: Hannes Kr&uuml;ger <email>Hannes.Krueger@uibk.ac.at</email></listitem>
-						<listitem><emphasis>Latest release</emphasis>: 1.4, 2004/09/22</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://pc12-c714.uibk.ac.at/GPLIGC/GPLIGC.php">http://pc12-c714.uibk.ac.at/GPLIGC/GPLIGC.php</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>: Hannes Kr&uuml;ger <email>Hannes.Krueger@uibk.ac.at</email></para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 1.4, 2004/09/22</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://pc12-c714.uibk.ac.at/GPLIGC/GPLIGC.php">http://pc12-c714.uibk.ac.at/GPLIGC/GPLIGC.php</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 				<!-- end of GPLIGC section -->
@@ -392,10 +392,10 @@ docbook source v 2.0
 						soaring pilots.</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>: Ian Forster-Lewis <email>igcview@forsterlewis.com</email></listitem>
-						<listitem><emphasis>Latest release</emphasis>: 3.12, 2003/04/24</listitem>
-						<listitem><emphasis>Copyright</emphasis>: Freely Distribuable</listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.forsterlewis.com/soaring/igcview/igcview_home.html">http://www.forsterlewis.com/soaring/igcview/igcview_home.html</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>: Ian Forster-Lewis <email>igcview@forsterlewis.com</email></para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 3.12, 2003/04/24</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: Freely Distribuable</para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.forsterlewis.com/soaring/igcview/igcview_home.html">http://www.forsterlewis.com/soaring/igcview/igcview_home.html</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 				<!-- end of IGCview section -->
@@ -409,10 +409,10 @@ docbook source v 2.0
 						simple display.</para>
 
 					<itemizedlist>
-						<listitem><emphasis>Author</emphasis>: R&uuml;diger Bien <email>ruedbi@users.sourceforge.net</email></listitem>
-						<listitem><emphasis>Latest release</emphasis>: 0.9, 2003/07/16</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>: <ulink url="http://jflight.sourceforge.net/">http://jflight.sourceforge.net/</ulink></listitem>
+						<listitem><para><emphasis>Author</emphasis>: R&uuml;diger Bien <email>ruedbi@users.sourceforge.net</email></para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 0.9, 2003/07/16</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://jflight.sourceforge.net/">http://jflight.sourceforge.net/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 				<!-- end of JFlight section -->
@@ -425,16 +425,16 @@ docbook source v 2.0
 					<para>KFLog projects the flights on a digital vectormap, that contains not only airfields and airspaces, but a complete elevation-map, roads, cities, rivers, and lots of other interesting objects.</para>
 
 					<itemizedlist>
-						<listitem>
+						<listitem><para>
 							<emphasis>Authors</emphasis>:
 							<itemizedlist>
-								<listitem>Heiner Lamprecht <email>heiner@kflog.org</email></listitem>
-								<listitem>Florian Ehinger <email>florian@kflog.org</email></listitem>
+								<listitem><para>Heiner Lamprecht <email>heiner@kflog.org</email></para></listitem>
+								<listitem><para>Florian Ehinger <email>florian@kflog.org</email></para></listitem>
 							</itemizedlist>
-						</listitem>
-						<listitem><emphasis>Latest release</emphasis>: 2.2.1, 2003/07/17</listitem>
-						<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-						<listitem><emphasis>Home Page</emphasis>:<ulink url="http://www.kflog.org/">http://www.kflog.org/</ulink> </listitem>
+						</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 2.2.1, 2003/07/17</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>:<ulink url="http://www.kflog.org/">http://www.kflog.org/</ulink> </para></listitem>
 					</itemizedlist>
 				</section>
 				<!-- end of KFLog section -->
@@ -454,10 +454,10 @@ docbook source v 2.0
 			<section><title>SMS</title>
 				<para>The Surface Management System (SMS) increases shared situational awareness of airport surface operations between the Air Traffic Control Tower (ATCT), the Ramp Tower, the air carriers that operate at an airport, and the various airport authorities and other ATC facilities. By increasing situational awareness and providing tools for airport surface traffic management, SMS improves the efficiency and flexibility of airport surface operations.</para>
 				<itemizedlist>
-					<listitem><emphasis>Author</emphasis>: Metron Aviation Inc. <email>bizdevelopment@metronaviation.com</email></listitem>
-					<listitem><emphasis>Latest release</emphasis>: Unknown</listitem>
-					<listitem><emphasis>Copyright</emphasis>: Commercial</listitem>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.metronaviation.com/sms_overview.php">http://www.metronaviation.com/sms_overview.php</ulink></listitem>
+					<listitem><para><emphasis>Author</emphasis>: Metron Aviation Inc. <email>bizdevelopment@metronaviation.com</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: Unknown</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: Commercial</para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.metronaviation.com/sms_overview.php">http://www.metronaviation.com/sms_overview.php</ulink></para></listitem>
 				</itemizedlist>
 			</section>
 		</section>
@@ -470,10 +470,10 @@ docbook source v 2.0
 				<para>The goal of the FlightGear project is to create a sophisticated flight simulator framework for use in research or academic environments, for the development and pursuit of other interesting flight simulation ideas, and as an end-user application.</para>
 
 				<itemizedlist>
-					<listitem><emphasis>Author</emphasis>: Curtis L. Olson <email>curt0001@flightgear.org</email></listitem>
-					<listitem><emphasis>Latest release</emphasis>: 0.9.8, 2005/01/18</listitem>
-					<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.flightgear.org/">http://www.flightgear.org/</ulink></listitem>
+					<listitem><para><emphasis>Author</emphasis>: Curtis L. Olson <email>curt0001@flightgear.org</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.9.8, 2005/01/18</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.flightgear.org/">http://www.flightgear.org/</ulink></para></listitem>
 				</itemizedlist>
 
 			</section>
@@ -481,19 +481,19 @@ docbook source v 2.0
 			<section><title>OpenGC</title>
 				<para>OpenGC is a multi-platform, multi-simulator, open-source C++ tool for developing and implementing high quality glass cockpit displays for simulated flightdecks. Our goal is simple: support all widely available flight simulators, all widely available operating systems, and provide a selection of gauges that mirrors the diversity of interests within the flightsimming community. I hope you enjoy OpenGC, and encourage you to contribute in any way possible!</para>
 				<itemizedlist>
-					<listitem><emphasis>Author</emphasis>: Damion Shelton <email>damion@opengc.org</email></listitem>
-					<listitem><emphasis>Latest release</emphasis>: 0.56</listitem>
-					<listitem><emphasis>Copyright</emphasis>: <xref linkend="bsd" /></listitem>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.opengc.org/">http://www.opengc.org/</ulink></listitem>
+					<listitem><para><emphasis>Author</emphasis>: Damion Shelton <email>damion@opengc.org</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.56</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="bsd" /></para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.opengc.org/">http://www.opengc.org/</ulink></para></listitem>
 				</itemizedlist>
 			</section>
 
 			<section><title>Atlas</title>
 				<itemizedlist>
-					<listitem><emphasis>Author</emphasis>: David Luff <email>daveluff@users.sourceforge.net</email> </listitem>
-					<listitem><emphasis>Latest release</emphasis>: 0.2.2, 2003/06/21</listitem>
-					<listitem><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></listitem>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://atlas.sourceforge.net/">http://atlas.sourceforge.net/</ulink></listitem>
+					<listitem><para><emphasis>Author</emphasis>: David Luff <email>daveluff@users.sourceforge.net</email> </para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.2.2, 2003/06/21</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://atlas.sourceforge.net/">http://atlas.sourceforge.net/</ulink></para></listitem>
 				</itemizedlist>
 			</section>
 
@@ -506,10 +506,10 @@ docbook source v 2.0
 					for download if you want to install it on your own machine.</para>
 
 				<itemizedlist>
-					<listitem><emphasis>Author</emphasis>: Tim Carlson <email>mim@visi.com</email></listitem>
-					<listitem><emphasis>Latest release</emphasis>: 19981015, 1998/10/15</listitem>
-					<listitem><emphasis>Copyright</emphasis>: Freely Distribuable</listitem>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.visi.com/~mim/nav/index.html">http://www.visi.com/~mim/nav/index.html</ulink></listitem>
+					<listitem><para><emphasis>Author</emphasis>: Tim Carlson <email>mim@visi.com</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 19981015, 1998/10/15</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: Freely Distribuable</para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.visi.com/~mim/nav/index.html">http://www.visi.com/~mim/nav/index.html</ulink></para></listitem>
 				</itemizedlist>
 
 			</section>
@@ -525,10 +525,10 @@ docbook source v 2.0
 					want to download the applet and install it on your own machine.</para>
 
 				<itemizedlist>
-					<listitem><emphasis>Author</emphasis>: Roshan Shrestha <email>shrestha@ct1.nai.net</email></listitem>
-					<listitem><emphasis>Latest release</emphasis>: Oct 1998</listitem>
-					<listitem><emphasis>Copyright</emphasis>: Freely Distributable</listitem>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.pilotpal.com/">http://www.pilotpal.com/</ulink></listitem>
+					<listitem><para><emphasis>Author</emphasis>: Roshan Shrestha <email>shrestha@ct1.nai.net</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: Oct 1998</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: Freely Distributable</para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.pilotpal.com/">http://www.pilotpal.com/</ulink></para></listitem>
 				</itemizedlist>
 			</section>
 			<!-- end of PilotPal section -->
@@ -536,28 +536,28 @@ docbook source v 2.0
 			<section><title>NeoKit</title>
 				<para>Description:
 					<itemizedlist mark='opencircle'>
-						<listitem>NeoKit &copy; is a Computer Based Training environment dedicated to initial training to Air Traffic Control and Management software,</listitem>
-						<listitem>The NeoKit &copy; tools covers the whole training cycle: scenarios preparation, dynamic and interactive training with Record and Replay capabilities and customizable reporting tool for analysis and debriefing,</listitem>
-						<listitem>NeoKit &copy; is developped on the Java platform environment and is so fully interoperable on any operating system (GNU/Linux, Windows, etc.),</listitem>
-						<listitem>Specific plugins dedicated to other Business Domain (e.g. Marine, Military) are easy to develop through the complete set of the Java APIs of NeoKit &copy;.</listitem>
+						<listitem><para>NeoKit &copy; is a Computer Based Training environment dedicated to initial training to Air Traffic Control and Management software,</para></listitem>
+						<listitem><para>The NeoKit &copy; tools covers the whole training cycle: scenarios preparation, dynamic and interactive training with Record and Replay capabilities and customizable reporting tool for analysis and debriefing,</para></listitem>
+						<listitem><para>NeoKit &copy; is developped on the Java platform environment and is so fully interoperable on any operating system (GNU/Linux, Windows, etc.),</para></listitem>
+						<listitem><para>Specific plugins dedicated to other Business Domain (e.g. Marine, Military) are easy to develop through the complete set of the Java APIs of NeoKit &copy;.</para></listitem>
 					</itemizedlist>
 				</para>
 				<para>Features:
 					<itemizedlist mark='opencircle'>
-						<listitem>Computer Based Training tool</listitem>
-						<listitem>Lightweight <xref linkend="atc"/> and <xref linkend="atm"/> simulation platform,</listitem>
-						<listitem>Distributed event-based discret simulation engine,</listitem>
-						<listitem>MCQ-SQC dialog engine,</listitem>
-						<listitem>Custom reporting for trainee progress tracking,</listitem>
-						<listitem>Java based,</listitem>
-						<listitem>- XML data input and outpout.</listitem>
+						<listitem><para>Computer Based Training tool</para></listitem>
+						<listitem><para>Lightweight <xref linkend="atc"/> and <xref linkend="atm"/> simulation platform,</para></listitem>
+						<listitem><para>Distributed event-based discret simulation engine,</para></listitem>
+						<listitem><para>MCQ-SQC dialog engine,</para></listitem>
+						<listitem><para>Custom reporting for trainee progress tracking,</para></listitem>
+						<listitem><para>Java based,</para></listitem>
+						<listitem><para>- XML data input and outpout.</para></listitem>
 					</itemizedlist>
 				</para>
 				<itemizedlist>
-					<listitem><emphasis>Author</emphasis>: NeoSYS <email>info@neosys.fr</email></listitem>
-					<listitem><emphasis>Latest release</emphasis>: 0.4, Jan 2004</listitem>
-					<listitem><emphasis>Copyright</emphasis>: Commercial</listitem>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.neosys.fr/neokit">http://www.neosys.fr/neokit</ulink></listitem>
+					<listitem><para><emphasis>Author</emphasis>: NeoSYS <email>info@neosys.fr</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.4, Jan 2004</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: Commercial</para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.neosys.fr/neokit">http://www.neosys.fr/neokit</ulink></para></listitem>
 				</itemizedlist>
 			</section>
 			<!-- end of NeoKit section -->
@@ -572,11 +572,11 @@ docbook source v 2.0
 		<para>We can classify two big types of data here :</para>
 		<itemizedlist>
 			<listitem>
-				<emphasis>Environment data</emphasis>
+				<para><emphasis>Environment data</emphasis></para>
 				<para>Data which dont change often like airport position (even if I have see airport jumps in data sometimes ;-). It's called also static or semi-static data.</para>
 			</listitem>
 			<listitem>
-				<emphasis>Dynamic data</emphasis>
+				<para><emphasis>Dynamic data</emphasis></para>
 				<para>Data which change very often like flight position or traffic load in a controlled sector.</para>
 			</listitem>
 		</itemizedlist>
@@ -589,7 +589,7 @@ docbook source v 2.0
 				<para>Except for the United States, which is also covered by data provided by the <xref linkend="faa"/>, it is usually the ONLY comprehensive digital data available for pilots. Other countries either don't provide digital data at all, or they do it through a proprietary web interface or in non-reusable formats (like PDF files of scans of paper documents). Even within the US, there is data that is available in the DAFIF which is not in the <xref linkend="faa"/> data. For instance, the navaid.com database generators use the DAFIF data to find ICAO identifiers for airports in Alaska, Hawaii, Puerto Rico and other places where there 3 letter <xref linkend="faa"/> id is not enough data to generate the ICAO id.</para>
 				<para><emphasis>Attention!</emphasis> Recently, this source is threaten to be removed of the public access for several reasons. Look <ulink url="http://www.navaid.com/dafif.html">here</ulink> for more details and support the existence of DAFIF.</para>
 				<itemizedlist>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="https://164.214.2.62/products/digitalaero/index.cfm">https://164.214.2.62/products/digitalaero/index.cfm</ulink></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="https://164.214.2.62/products/digitalaero/index.cfm">https://164.214.2.62/products/digitalaero/index.cfm</ulink></para></listitem>
 				</itemizedlist>
 			</section>
 			<!-- end of DAFIF section -->
@@ -601,7 +601,7 @@ docbook source v 2.0
 				<para>A good site to listen, discover and perhaps also learn the language. They propose several live feeds in USA, Canada, Mexico, Europe, Australia, Columbia, or even Dutch caribean !</para>
 					
 				<itemizedlist>
-					<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.liveatc.net/">http://www.liveatc.net/</ulink></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.liveatc.net/">http://www.liveatc.net/</ulink></para></listitem>
 				</itemizedlist>
 			</section>
 		</section>
@@ -625,9 +625,9 @@ docbook source v 2.0
 		<para>Always attracted by sciences and particularly geology, I got a degree (BA) of Geophysic/Geochemistry and try to get the next degree but fall back to another direction : computer science. I got my master of computer science applied to geosciences in 1998 at <ulink url="http://www.upmc.fr">Paris</ulink>.</para>
 		<para>I got my first job at <ulink url="http://www.eurocontrol.int/eec/public/subsite_homepage/homepage.html">Eurocontrol</ulink> and it changes a lot my life. Even if I worked for Schlumberger for 6 months (big oil service company), I now work for 6 years for a little french company (<ulink url="http://www.neometsys.fr/">Neometsys</ulink>) in aeronautic.</para>
 		<itemizedlist>
-			<listitem><emphasis>Home Page</emphasis>: <ulink url="http://www.nemoworld.info/">http://www.nemoworld.info/</ulink></listitem>
-			<listitem><emphasis>Email</emphasis>: <email>capnemo@nemoworld.info</email></listitem>
-			<listitem>
+			<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.nemoworld.info/">http://www.nemoworld.info/</ulink></para></listitem>
+			<listitem><para><emphasis>Email</emphasis>: <email>capnemo@nemoworld.info</email></para></listitem>
+			<listitem><para>
 				<emphasis>PGP Public Key</emphasis>
 				<programlisting>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.0 (GNU/Linux)
@@ -659,7 +659,7 @@ I/lTVwq/AACdF9f7EDU2E67i1FZYUYcDrkm1hxgAoJsvLUc/1HqFUS7kIRdWm1mU
 bsFV
 =iTnZ
 -----END PGP PUBLIC KEY BLOCK-----</programlisting>
-			</listitem>
+			</para></listitem>
 		</itemizedlist>
 	</appendix>
 
@@ -676,7 +676,7 @@ bsFV
 					<para>Air Traffic Control</para>
 				</glossdef>
 			</glossentry>
-			<glossentry id="at"><glossterm>ATM</glossterm>
+			<glossentry id="atm"><glossterm>ATM</glossterm>
 				<glossdef>
 					<para>Air Traffic Management</para>
 				</glossdef>
@@ -689,12 +689,6 @@ bsFV
 					<para>See <ulink url="http://www.opensource.org/licenses/bsd-license.php">here</ulink> for details.</para>
 				</glossdef>
 			</glossentry>
-		</glossdiv>
-		<glossdiv><title>C</title>
-		</glossdiv>
-		<glossdiv><title>D</title>
-		</glossdiv>
-		<glossdiv><title>E</title>
 		</glossdiv>
 		<glossdiv><title>F</title>
 			<glossentry id="faa"><glossterm>FAA</glossterm>
@@ -712,38 +706,12 @@ bsFV
 				</glossdef>
 			</glossentry>
 		</glossdiv>
-		<glossdiv><title>H</title>
-		</glossdiv>
-		<glossdiv><title>I</title>
-		</glossdiv>
-		<glossdiv><title>J</title>
-		</glossdiv>
-		<glossdiv><title>K</title>
-		</glossdiv>
-		<glossdiv><title>L</title>
-		</glossdiv>
-		<glossdiv><title>M</title>
-		</glossdiv>
 		<glossdiv><title>N</title>
 			<glossentry id="ndb"><glossterm>NDB</glossterm>
 				<glossdef>
 					<para>Non-Directional Beacon</para>
 				</glossdef>
 			</glossentry>
-		</glossdiv>
-		<glossdiv><title>O</title>
-		</glossdiv>
-		<glossdiv><title>P</title>
-		</glossdiv>
-		<glossdiv><title>Q</title>
-		</glossdiv>
-		<glossdiv><title>R</title>
-		</glossdiv>
-		<glossdiv><title>S</title>
-		</glossdiv>
-		<glossdiv><title>T</title>
-		</glossdiv>
-		<glossdiv><title>U</title>
 		</glossdiv>
 		<glossdiv><title>V</title>
 			<glossentry id="vor"><glossterm>VOR</glossterm>
@@ -752,14 +720,6 @@ bsFV
 					<para>Beacon very usefull to navigation.</para>
 				</glossdef>
 			</glossentry>
-		</glossdiv>
-		<glossdiv><title>W</title>
-		</glossdiv>
-		<glossdiv><title>X</title>
-		</glossdiv>
-		<glossdiv><title>Y</title>
-		</glossdiv>
-		<glossdiv><title>Z</title>
 		</glossdiv>
 	</glossary>
 
