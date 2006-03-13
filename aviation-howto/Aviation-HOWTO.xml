@@ -3,11 +3,11 @@
 "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 
 <!--
-Nicolas Dufour 2005 ©
+Nicolas Dufour 2006 ©
 
 GNU/Linux Aviation HOWTO
 
-docbook source v 2.0
+docbook source v 2.1
 -->
 
 <book>
@@ -20,7 +20,7 @@ docbook source v 2.0
 				<firstname>Nicolas</firstname>
 				<surname>Dufour</surname>
 				<affiliation>
-					<address><email>capnemo@nemoworld.info</email></address>
+					<address><email>nicolas.dufour@nemoworld.info</email></address>
 				</affiliation>
 				<contrib>Current author of this document.</contrib>
 			</author>
@@ -66,6 +66,12 @@ docbook source v 2.0
 		<section><title>Revision History</title>
 			<para>
 				<revhistory>
+					<revision>
+						<revnumber>2.1</revnumber>
+						<date>2006-03-13</date>
+						<authorinitials>nd</authorinitials>
+						<revremark>Updates and new applications added.</revremark>
+					</revision>
 					<revision>
 						<revnumber>2.0</revnumber>
 						<date>2005-05-21</date>
@@ -133,14 +139,14 @@ docbook source v 2.0
 		</section>
 
 		<section><title>Feedback</title>
-			<para>Missing information, missing links, missing characters?  Mail it to the maintainer of this document: <address><email>capnemo@nemoworld.info</email></address></para>
+			<para>Missing information, missing links, missing characters?  Mail it to the maintainer of this document: <address><email>nicolas.dufour@nemoworld.info</email></address></para>
 		</section>
 
 		<section><title>Copyright information</title>
 			<!-- The LDP recommends, but doesn't require, the GFDL --> 
 			<para>
 				This document, <emphasis>GNU/Linux Aviation HOWTO</emphasis>,
-				is copyrighted (c) 2005 by <link linkend="about">Nicolas Dufour</link>.
+				is copyrighted (c) 2005-2006 by <link linkend="about">Nicolas Dufour</link>.
 			</para>
 			<para>
 				Permission is granted to copy, distribute and/or modify this
@@ -220,7 +226,7 @@ docbook source v 2.0
 
 					<itemizedlist>
 						<listitem><para><emphasis>Author</emphasis>: Rikard and Henrik Bjorkman <email>hb1@eit.se</email></para></listitem>
-						<listitem><para><emphasis>Latest release</emphasis>: 0.38, December 2004</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 0.40, September 2005</para></listitem>
 						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.eit.se/chartplotter/">http://www.eit.se/chartplotter/</ulink></para></listitem>
 						<listitem>
@@ -243,30 +249,29 @@ docbook source v 2.0
 
 					<itemizedlist>
 						<listitem><para><emphasis>Author</emphasis>: Remco Treffkorn <email>remco@emc.rvt.com</email></para></listitem>
-						<listitem><para><emphasis>Latest release</emphasis>: 2.10, 2005/02/03</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 2.32, 2006/03/12</para></listitem>
 						<listitem><para><emphasis>Copyright</emphasis><xref linkend="gpl" /></para></listitem>
 						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://gpsd.berlios.de/">http://gpsd.berlios.de/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 
 				<section><title>GpsDrive</title>
-					<para>Gpsdrive is a GPS moving map navigation system for use in an aircraft,
-						boat, ship, car, or bicycle. Gpsdrive displays your position in real-time
-						on a zoomable map using the output from any compatible GPS receiver. (All
-						Garmin GPS reveivers with serial output are supported, as well as most
-						other GPS receivers that support the NMEA protocol). Speech output is
-						supported if the "festival" software is available.</para>
-
-					<para>The maps are auto-selected for best resolution depending of your position
-						and preferred scaling. Map files for most areas of interest can be readily
-						downloaded from Internet.  Gpsdrive is written in C and uses the GTK+
-						graphic toolkit.</para>
+					<para>GpsDrive is a car (bike, ship, plane) navigation system. GpsDrive displays
+						your position provided from your NMEA capable GPS receiver on a zoomable
+						map, the map file is autoselected depending of the position and prefered
+						scale. Speech output is supported if the "festival" software is running.
+						The maps are autoselected for best resolution depending of your position
+						and can be downloaded from Internet. All Garmin GPS reveiver with a serial
+						output should be usable, also other GPS receiver which supports NMEA
+						protocol.</para>
+					<para>GpsDrive is written in C with use of the GTK+ graphic toolkit and runs
+						with Linux and FreeBSD.</para>
 
 					<itemizedlist>
 						<listitem><para><emphasis>Author</emphasis>:Friedrich Ganter <email>ganter@ganter.at</email></para></listitem>
-						<listitem><para><emphasis>Latest release</emphasis>: 2.09, 2004/3/3</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 2.10pre3, 2006/03/10</para></listitem>
 						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
-						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.gpsdrive.de/">http://www.gpsdrive.de/</ulink></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.gpsdrive.cc/">http://www.gpsdrive.cc/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
 
@@ -367,7 +372,7 @@ docbook source v 2.0
 
 					<itemizedlist>
 						<listitem><para><emphasis>Author</emphasis>: Hannes Kr&uuml;ger <email>Hannes.Krueger@uibk.ac.at</email></para></listitem>
-						<listitem><para><emphasis>Latest release</emphasis>: 1.4, 2004/09/22</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 1.5, 2005/06/14</para></listitem>
 						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://pc12-c714.uibk.ac.at/GPLIGC/GPLIGC.php">http://pc12-c714.uibk.ac.at/GPLIGC/GPLIGC.php</ulink></para></listitem>
 					</itemizedlist>
@@ -432,7 +437,7 @@ docbook source v 2.0
 								<listitem><para>Florian Ehinger <email>florian@kflog.org</email></para></listitem>
 							</itemizedlist>
 						</para></listitem>
-						<listitem><para><emphasis>Latest release</emphasis>: 2.2.1, 2003/07/17</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 2.1.1, 2003/07/17</para></listitem>
 						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 						<listitem><para><emphasis>Home Page</emphasis>:<ulink url="http://www.kflog.org/">http://www.kflog.org/</ulink> </para></listitem>
 					</itemizedlist>
@@ -471,7 +476,7 @@ docbook source v 2.0
 
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Curtis L. Olson <email>curt0001@flightgear.org</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 0.9.8, 2005/01/18</para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.9.9, 2005/11/17</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.flightgear.org/">http://www.flightgear.org/</ulink></para></listitem>
 				</itemizedlist>
@@ -489,9 +494,10 @@ docbook source v 2.0
 			</section>
 
 			<section><title>Atlas</title>
+				<para>Atlas aims to produce and display high quality charts of the world for users of FlightGear, an open source flight simulator. This is achieved through two main parts: The map creator (simply called Map) and the Atlas viewer.</para>
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: David Luff <email>daveluff@users.sourceforge.net</email> </para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 0.2.2, 2003/06/21</para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.2.2, 2003/06/22</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://atlas.sourceforge.net/">http://atlas.sourceforge.net/</ulink></para></listitem>
 				</itemizedlist>
@@ -587,7 +593,7 @@ docbook source v 2.0
 			<section><title>DAFIF</title>
 				<para>The Digital Aeronautical Flight Information File (or DAFIF) is a set of files that contain data on airports, navaids, waypoints, special use airspace and other facts relevant to flying in the entire world. This data is provided by the US military, through the <ulink url="http://www.nga.mil">National Geospatial Intelligence Agency (NGA)</ulink>, and is primarily developed for the benefit of military aeronautical operations, but was made available to the general public.</para> 
 				<para>Except for the United States, which is also covered by data provided by the <xref linkend="faa"/>, it is usually the ONLY comprehensive digital data available for pilots. Other countries either don't provide digital data at all, or they do it through a proprietary web interface or in non-reusable formats (like PDF files of scans of paper documents). Even within the US, there is data that is available in the DAFIF which is not in the <xref linkend="faa"/> data. For instance, the navaid.com database generators use the DAFIF data to find ICAO identifiers for airports in Alaska, Hawaii, Puerto Rico and other places where there 3 letter <xref linkend="faa"/> id is not enough data to generate the ICAO id.</para>
-				<para><emphasis>Attention!</emphasis> Recently, this source is threaten to be removed of the public access for several reasons. Look <ulink url="http://www.navaid.com/dafif.html">here</ulink> for more details and support the existence of DAFIF.</para>
+				<para><emphasis>Attention!</emphasis> This source will be removed at october 2006 of the public access for several reasons. Look <ulink url="http://www.navaid.com/dafif.html">here</ulink> for more details and support the existence of DAFIF. You can also help creating a replacement solution <ulink url="http://xcski.com/navdata/bin/view/NavData/WebHome">here</ulink>.</para>
 				<itemizedlist>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="https://164.214.2.62/products/digitalaero/index.cfm">https://164.214.2.62/products/digitalaero/index.cfm</ulink></para></listitem>
 				</itemizedlist>
@@ -625,41 +631,8 @@ docbook source v 2.0
 		<para>Always attracted by sciences and particularly geology, I got a degree (BA) of Geophysic/Geochemistry and try to get the next degree but fall back to another direction : computer science. I got my master of computer science applied to geosciences in 1998 at <ulink url="http://www.upmc.fr">Paris</ulink>.</para>
 		<para>I got my first job at <ulink url="http://www.eurocontrol.int/eec/public/subsite_homepage/homepage.html">Eurocontrol</ulink> and it changes a lot my life. Even if I worked for Schlumberger for 6 months (big oil service company), I now work for 6 years for a little french company (<ulink url="http://www.neometsys.fr/">Neometsys</ulink>) in aeronautic.</para>
 		<itemizedlist>
-			<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.nemoworld.info/">http://www.nemoworld.info/</ulink></para></listitem>
-			<listitem><para><emphasis>Email</emphasis>: <email>capnemo@nemoworld.info</email></para></listitem>
-			<listitem><para>
-				<emphasis>PGP Public Key</emphasis>
-				<programlisting>-----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v1.4.0 (GNU/Linux)
-
-mQGiBEIOMwYRBAC7e0SjytyDxyVF8CeOSsCdT77Ig85Eiu6MNrclGb5SJHhJLvmO
-IRkMykjkMCqfufEyOgyodFpc+2JkawMKhU0jOXNtFU3F0iF//TQQW7vG5G/1o3WC
-FX/kG825CLOz+VxBt7YjSfj3C6jjM4UjYDRmjJxt2e/YaYYgbNaZINPvrwCg2Mv3
-c9PkSxkNAHyUqF7vFfTfD4kD/AjTjy9tYEupQ+edgLZmYIHPlug592wKHY1cvqsW
-ynGH6or4uYZtJDoxkiOHU7ZdITagCNJKXzb2JhzSiioXxaR6zV0IDoDQOwaAWal0
-qF2MZtaLlSxBMl15p4tbauGOj8n4PAMGgZJNqckqTqBbuBiW19VNdZEQ7erE74zP
-qatUBACjY6hkqHVhq6drWIm/eS8q2ljLc6yDFZVadLuUct8xyfFo+quAlCxIGvA+
-7Eev/BwJY74dofU/ckOQSRzJzAxPR5KcPyBWcMCQdpxDH//hBX9kgL7DU3yfB0WK
-AI8Eepbd/EWuXvlGUQR4q3ZzRC5w/A0Giu1TsVip9M1yYOXGRbQnTmljb2xhcyBE
-dWZvdXIgPGNhcG5lbW9AbmVtb3dvcmxkLmluZm8+iFsEExECABsFAkIOMwYGCwkI
-BwMCAxUCAwMWAgECHgECF4AACgkQk58PI/lTVwrVEwCgsM1BTNvESjGLSZzu3SIn
-g/9qle0An0YBB8Bm3fxYuputhmsgbrp/epxzuQINBEIOMx0QCACZnsnTTdmE+nig
-ym995m81zYsb5STHUKasTYOATQ6kGWR7VZyFbzcd59dZTSt8P4lITgE5F5LPZTal
-zmWR/8BrkDYrGUNxEBdt1pyIrp7dPtcsX/IOl4X+rH6/LA2OcP21wHC/tg+WqTcM
-9jR0F5HgvVMWDVkFv5C7LN36hNdqewE8L3H5irat9/sZf+2hVhqgYrWCouE4Dw01
-hhg7a054m9o1CMTavwhI8WwQIb0ZxqKosiHyMaguupHQNLGiZAFeBn+sFrODxKt6
-JK3fKT0wHB/fbXkXSXSDQMiKh9tESo4Ks6oieI1FkmIkidY/whhy4Qhz6p856BNg
-BcLPtctXAAMFB/9FwOtWHz5ISjZ+JTWOhESXXpaRw+5D8uf8tMvxgYmrGJg1OXc/
-BIr4QrVtzATj9vxWicaiWUek91cLsxlDRbRS/kicQUEYRduV/dx2aFZlUI7Eprc5
-wBCEnne1a76tSTm8HUaKcndUxh2qgya9340qEmDmFcFWsX7M4RjfySEZl1spGmR5
-7OVxHvb0fJlHIn+YhpMMyczJrhN5ZFuWBSaFO+bO9zVHh4VRsoH+Sc82is/40f8K
-3bFX6TLlMx5bVTFaS+BbwEYpHcIbKFTDYudatbXk3wxlS10OmE1t+8th85X4hkio
-JoXH4Qqx85RdeIDIQgBze8AMb7EOmccsg6iFiEYEGBECAAYFAkIOMx0ACgkQk58P
-I/lTVwq/AACdF9f7EDU2E67i1FZYUYcDrkm1hxgAoJsvLUc/1HqFUS7kIRdWm1mU
-bsFV
-=iTnZ
------END PGP PUBLIC KEY BLOCK-----</programlisting>
-			</para></listitem>
+			<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://nemoworld.info/">http://nemoworld.info/</ulink></para></listitem>
+			<listitem><para><emphasis>Email</emphasis>: <email>nicolas.dufour@nemoworld.info</email></para></listitem>
 		</itemizedlist>
 	</appendix>
 
