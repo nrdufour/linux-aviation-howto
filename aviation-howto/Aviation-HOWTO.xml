@@ -204,6 +204,30 @@ docbook source v 2.1
 						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.ibiblio.org/fplan/">http://www.ibiblio.org/fplan/</ulink></para></listitem>
 					</itemizedlist>
 				</section>
+
+				<section><title>Flight Navigation Planner</title>
+					<para>Flight Navigation Planner lets you make flight plans based on known airports, navaids, fixes, or cities. You can use the sectional charts, wacs, or the vector/terrain planning charts. It calculates headings, winds, time, and fuel. It features Airways-based Auto-Routing, Climb and Descent calculations (a/c type based), Fuel Stop Planning, Auto-Route around MOAS and Restricted Airspace, Hi-Res Weather Radar Overlay, Viewing of current sectional, wac, and IFR charts, the ability to see a route over TFRs, detailed nexrad radar overlays over your routes, Terrain Profiles with cloud ceilings, and the ability to upload flight plans to GPS.</para>
+
+					<itemizedlist>
+						<listitem><para><emphasis>Author</emphasis>: rvsc</para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 104, 2004/03/08</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: Unknown</para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://fnp.berlios.de">http://fnp.berlios.de</ulink></para></listitem>
+					</itemizedlist>
+
+				</section>
+
+				<section><title>FlyWay</title>
+					<para>Flyway allows the user to find and enter U.S. waypoints (airports, navaids, and fixes), then it calculates courses, wind corrections, and travel times. Information about the waypoints is provided (including frequencies, elevation, fuel availability, and runway descriptions). The route data can also be used to fill in an editable FAA Flight Plan form, fetch basic weather information from the internet, and display a very rough map.</para>
+
+					<itemizedlist>
+						<listitem><para><emphasis>Author</emphasis>: Doug Bell </para></listitem>
+						<listitem><para><emphasis>Latest release</emphasis>: 0.4.1, 2005/12/14</para></listitem>
+						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.bellz.org/flyway/">http://www.bellz.org/flyway/</ulink></para></listitem>
+					</itemizedlist>
+
+				</section>
 			</section>
 			<!-- end of Flight Planning section -->
 
@@ -483,6 +507,48 @@ docbook source v 2.1
 
 			</section>
 
+			<section><title>JSBSim Flight Dynamics Model</title>
+				<para>JSBSim is an object-oriented (C++), multi-platform, 6-DOF, Flight Dynamics Model (FDM). It can be run as a standalone, batch-mode flight simulator (no graphical displays), or integrated with FlightGear or other flight simulator.</para>
+
+				<itemizedlist>
+					<listitem><para><emphasis>Author</emphasis>: Jon S. Berndt <email>jsb@hal-pc.org</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.9.9, 2005/08/10</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://jsbsim.sourceforge.net/">http://jsbsim.sourceforge.net/</ulink></para></listitem>
+				</itemizedlist>
+				
+			</section>
+
+			<section><title>IFT</title>
+				<para>IFT is a small flight simulator written for the purpose of training
+					pilots not experienced in instrument flight. It includes a couple of
+					VOR and NDB stations and displays. These can be used to exercise basic
+					radio navigation skills.</para>
+
+				<para>It's made and tested on GNU/Linux, but it should work on all Unices,
+					since all it uses is the X11 library.</para>
+
+				<itemizedlist>
+					<listitem><para><emphasis>Author</emphasis>: Sukru Cinar <email>vantadu@email.com</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 1.0, 2005/07/22</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://geocities.com/cinarus/IFT.txt">http://geocities.com/cinarus/IFT.txt</ulink></para></listitem>
+					
+				</itemizedlist>
+			</section>
+
+			<section><title>X-Plane</title>
+				<para>X-Plane is a flight simulator that reads in the geometric shape of any aircraft and then figures out how that aircraft will fly. It does this via an engineering process called "blade element theory", which involves breaking the aircraft down into many small elements and then finding the forces on each little element many times per second. These forces are then converted into accelerations, which are then integrated to velocities and positions. This gives X-Plane the most realistic flight model available for personal computers.</para>
+
+				<itemizedlist>
+					<listitem><para><emphasis>Author</emphasis>: Austin Meyer <email>austin@x-plane.com</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 8.2, 2005/06/20</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: Proprietary with Free Trial</para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://x-plane.com/">http://x-plane.com/</ulink></para></listitem>
+				</itemizedlist>
+
+			</section>
+
 			<section><title>OpenGC</title>
 				<para>OpenGC is a multi-platform, multi-simulator, open-source C++ tool for developing and implementing high quality glass cockpit displays for simulated flightdecks. Our goal is simple: support all widely available flight simulators, all widely available operating systems, and provide a selection of gauges that mirrors the diversity of interests within the flightsimming community. I hope you enjoy OpenGC, and encourage you to contribute in any way possible!</para>
 				<itemizedlist>
@@ -497,7 +563,7 @@ docbook source v 2.1
 				<para>Atlas aims to produce and display high quality charts of the world for users of FlightGear, an open source flight simulator. This is achieved through two main parts: The map creator (simply called Map) and the Atlas viewer.</para>
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: David Luff <email>daveluff@users.sourceforge.net</email> </para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 0.2.2, 2003/06/22</para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.3.0, 2005/07/28</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://atlas.sourceforge.net/">http://atlas.sourceforge.net/</ulink></para></listitem>
 				</itemizedlist>
