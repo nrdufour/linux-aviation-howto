@@ -171,21 +171,12 @@ docbook source v 2.1
 
 	<toc></toc>
 
-	<chapter><title>Tools</title>
-
-		<para>Here you will find all about existing tools running on GNU/Linux for pilots, airlines, airports.</para>
-
-		<section><title>Flight</title>
-
-			<para>Usually, there is 3 phases during a flight :</para>
-			<itemizedlist>
-				<listitem><para>preparing the flight plan</para></listitem>
-				<listitem><para>navigate safely and accurately</para></listitem>
-				<listitem><para>then analyze the flight to see if something can be improved</para></listitem>
-			</itemizedlist>
-
-			<section><title>Planning</title>
-				<section><title>fplan</title>
+	<chapter><title>Flight</title>
+	
+		<sect1><title>Planning</title>
+		
+				<sect2><title>fplan</title>
+				
 					<para>The fplan application is designed to assist general aviation pilots in
 						creating flight plans for cross country flights in powered aircraft.
 						It reads a planfile containing a description of the flight: departure
@@ -203,9 +194,9 @@ docbook source v 2.1
 						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.ibiblio.org/fplan/">http://www.ibiblio.org/fplan/</ulink></para></listitem>
 					</itemizedlist>
-				</section>
+				</sect2> <!-- end of fplan -->
 
-				<section><title>Flight Navigation Planner</title>
+				<sect2><title>Flight Navigation Planner</title>
 					<para>Flight Navigation Planner lets you make flight plans based on known airports, navaids, fixes, or cities. You can use the sectional charts, wacs, or the vector/terrain planning charts. It calculates headings, winds, time, and fuel. It features Airways-based Auto-Routing, Climb and Descent calculations (a/c type based), Fuel Stop Planning, Auto-Route around MOAS and Restricted Airspace, Hi-Res Weather Radar Overlay, Viewing of current sectional, wac, and IFR charts, the ability to see a route over TFRs, detailed nexrad radar overlays over your routes, Terrain Profiles with cloud ceilings, and the ability to upload flight plans to GPS.</para>
 
 					<itemizedlist>
@@ -215,9 +206,9 @@ docbook source v 2.1
 						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://fnp.berlios.de">http://fnp.berlios.de</ulink></para></listitem>
 					</itemizedlist>
 
-				</section>
+				</sect2> <!-- end of FNP -->
 
-				<section><title>FlyWay</title>
+				<sect2><title>FlyWay</title>
 					<para>Flyway allows the user to find and enter U.S. waypoints (airports, navaids, and fixes), then it calculates courses, wind corrections, and travel times. Information about the waypoints is provided (including frequencies, elevation, fuel availability, and runway descriptions). The route data can also be used to fill in an editable FAA Flight Plan form, fetch basic weather information from the internet, and display a very rough map.</para>
 
 					<itemizedlist>
@@ -227,13 +218,13 @@ docbook source v 2.1
 						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.bellz.org/flyway/">http://www.bellz.org/flyway/</ulink></para></listitem>
 					</itemizedlist>
 
-				</section>
-			</section>
-			<!-- end of Flight Planning section -->
+				</sect2> <!-- end of FlyWay -->
+				
+			</sect1> <!-- end of Planning section -->
 
-			<section><title>Navigation</title>
-				<section><title>GPS</title>
-					<section><title>ChartPlotter</title>
+			<sect1><title>GPS</title>
+			
+					<sect2><title>ChartPlotter</title>
 						<para>ChartPlotter is a Java based moving map program for use with GPS
 							units that support the NMEA communication protocol (the GPGLL sentence).
 							ChartPlotter can be used with user scanned charts saved in JPEG format.
@@ -267,9 +258,9 @@ docbook source v 2.1
 									<ulink url="http://www.ngdc.noaa.gov/">www.ngdc.noaa.gov</ulink>. </para>
 							</listitem>
 						</itemizedlist>
-					</section>
+					</sect2> <!-- end of ChartPlotter -->
 
-					<section><title>GPSd</title>
+					<sect2><title>GPSd</title>
 						<para>gpsd is a service daemon that monitors a GPS attached to a host computer through a serial or USB port, making its data on the location/course/velocity of the sensor available to be queried on TCP port 2947 of the host computer. With gpsd, multiple GPS client applications (such as navigational and wardriving software) can share access to a GPS without contention or loss of data. Also, gpsd responds to queries with a format that is substantially easier to parse than the NMEA 0183 emitted by most GPSes. The gpsd distribution includes a linkable C service library and a Python module that developers of gpsd-aware applications can use to encapsulate all communication with gpsd.</para>
 
 						<itemizedlist>
@@ -278,9 +269,9 @@ docbook source v 2.1
 							<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 							<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://gpsd.berlios.de/">http://gpsd.berlios.de/</ulink></para></listitem>
 						</itemizedlist>
-					</section>
+					</sect2> <!-- end of GPSd -->
 
-					<section><title>GpsDrive</title>
+					<sect2><title>GpsDrive</title>
 						<para>GpsDrive is a car (bike, ship, plane) navigation system. GpsDrive displays
 							your position provided from your NMEA capable GPS receiver on a zoomable
 							map, the map file is autoselected depending of the position and prefered
@@ -298,9 +289,9 @@ docbook source v 2.1
 							<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 							<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.gpsdrive.cc/">http://www.gpsdrive.cc/</ulink></para></listitem>
 						</itemizedlist>
-					</section>
+					</sect2> <!-- end of GpsDrive -->
 
-					<section><title>GPSMan</title>
+					<sect2><title>GPSMan</title>
 						<para>GPS Manager (GPSMan) is a graphical geographic data manager that
 							provides a user friendly graphical environment for the preparation,
 							inspection and editing of waypoint, route and track data for use in
@@ -320,9 +311,9 @@ docbook source v 2.1
 							<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 							<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.ncc.up.pt/gpsman/">http://www.ncc.up.pt/gpsman/</ulink></para></listitem>
 						</itemizedlist>
-					</section>
+					</sect2> <!-- end of GPSMan -->
 
-					<section><title>Elgaard Positioning System</title>
+					<sect2><title>Elgaard Positioning System</title>
 						<para>The Elgaard Positioning System is a Java based application designed
 							for use with GPS receivers. It provides an interface capability:
 							tracks can be saved from units with NMEA format output.  For units
@@ -338,10 +329,13 @@ docbook source v 2.1
 							<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 							<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://eps.sourceforge.net/">http://eps.sourceforge.net/</ulink></para></listitem>
 						</itemizedlist>
-					</section>
-				</section>
-				<section><title>Soaring</title>
-					<section><title>GPLIGC</title>
+					</sect2> <!-- end of Elgaard Positioning System -->
+					
+				</sect1> <!-- end of GPS section -->
+				
+				<sect1><title>Soaring</title>
+				
+					<sect2><title>GPLIGC</title>
 						<para>
 							GPLIGC is an application licensed under the GNU General Public License for
 							the analysis of IGC data files, such as those produced by the GNSS flight
@@ -362,10 +356,11 @@ docbook source v 2.1
 							<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 							<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://pc12-c714.uibk.ac.at/GPLIGC/GPLIGC.php">http://pc12-c714.uibk.ac.at/GPLIGC/GPLIGC.php</ulink></para></listitem>
 						</itemizedlist>
-					</section>
-					<!-- end of GPLIGC section -->
+						
+					</sect2> <!-- end of GPLIGC section -->
 
-					<section><title>IGCview</title>
+					<sect2><title>IGCview</title>
+					
 						<para>IGCview is a Java application designed for soaring pilots
 							who want to display and analyze GPS log files in the
 							<ulink url="http://www.fai.org/gliding/">FAI IGC</ulink>
@@ -388,10 +383,10 @@ docbook source v 2.1
 							<listitem><para><emphasis>Copyright</emphasis>: Freely Distribuable</para></listitem>
 							<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.forsterlewis.com/soaring/igcview/igcview_home.html">http://www.forsterlewis.com/soaring/igcview/igcview_home.html</ulink></para></listitem>
 						</itemizedlist>
-					</section>
-					<!-- end of IGCview section -->
+					</sect2> <!-- end of IGCview section -->
 
-					<section><title>JFlight</title>
+					<sect2><title>JFlight</title>
+					
 						<para>JFlight is a Java based application developed for Hang-glider and
 							Para-glider pilots to assist with pre-flight task planning and post-flight
 							analysis of GPS, Barogram, Vario data. (It should prove useful to full
@@ -405,10 +400,10 @@ docbook source v 2.1
 							<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 							<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://jflight.sourceforge.net/">http://jflight.sourceforge.net/</ulink></para></listitem>
 						</itemizedlist>
-					</section>
-					<!-- end of JFlight section -->
+						
+					</sect2> <!-- end of JFlight section -->
 
-					<section><title>KFLog</title>
+					<sect2><title>KFLog</title>
 						<para> KFLog is an OpenSource program aimed at glider pilots. It gives You a powerfull tool to plan You flight tasks and analyse Your flights afterwards.</para>
 
 						<para>KFLog is the only flight analyser program available for GNU/Linux to be recognized by the <ulink url="http://www.fai.org/gliding/">FAI IGC</ulink>.</para>
@@ -427,17 +422,15 @@ docbook source v 2.1
 							<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 							<listitem><para><emphasis>Home Page</emphasis>:<ulink url="http://www.kflog.org/">http://www.kflog.org/</ulink> </para></listitem>
 						</itemizedlist>
-					</section>
-					<!-- end of KFLog section -->
+						
+					</sect2> <!-- end of KFLog section -->
 
-				</section>
-				<!-- end of Soaring section -->
+				</sect1> <!-- end of Soaring section -->
 
-			</section>
-			<!-- end of Navigation / GPS section -->
-
-			<section><title>Analyzis and Logbook</title>
-				<section><title>Airlog</title>
+			<sect1><title>Analyzis and Logbook</title>
+			
+				<sect2><title>Airlog</title>
+				
 					<para>Airlog is a flight logging system designed to meet the unique needs
 						of glider pilots and students. The Java based client allows multiple
 						users to access a common database (interface drivers are provided for
@@ -469,21 +462,19 @@ docbook source v 2.1
 						<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 						<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://airlog.sourceforge.net/">http://airlog.sourceforge.net/</ulink></para></listitem>
 					</itemizedlist>
-				</section>
-			</section>
-			<!-- end of Logbook section -->
-
-
-		</section>
-		<!-- end of Pilot section -->
-
-		<section><title>Airline</title>
+					
+				</sect2> <!-- end of AirLog -->
+				
+			</sect1> <!-- end of Logbook section -->
+	</chapter>
+	
+	<chapter><title>Airline</title>
 			<para>To be completed.</para>
-		</section>
-		<!-- end of Airline section -->
+	</chapter>
 
-		<section><title>Airport</title>
-			<section><title>SMS</title>
+	<chapter><title>Airport</title>
+		
+			<sect1><title>SMS</title>
 				<para>The Surface Management System (SMS) increases shared situational awareness of airport surface operations between the Air Traffic Control Tower (ATCT), the Ramp Tower, the air carriers that operate at an airport, and the various airport authorities and other ATC facilities. By increasing situational awareness and providing tools for airport surface traffic management, SMS improves the efficiency and flexibility of airport surface operations.</para>
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Metron Aviation Inc. <email>bizdevelopment@metronaviation.com</email></para></listitem>
@@ -491,12 +482,17 @@ docbook source v 2.1
 					<listitem><para><emphasis>Copyright</emphasis>: Commercial</para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.metronaviation.com/sms_overview.php">http://www.metronaviation.com/sms_overview.php</ulink></para></listitem>
 				</itemizedlist>
-			</section>
-		</section>
-		<!-- end of Airport section -->
+				
+			</sect1> <!-- end of SMS -->
+			
+		</chapter> <!-- end of Airport chapter -->
 
-		<section><title>Simulation</title>
-			<section><title>FlightGear</title>
+		<chapter><title>Simulation</title>
+
+			<sect1><title>Flight Simulators</title>
+		
+			<sect2><title>FlightGear</title>
+			
 				<para>The FlightGear flight simulator project is an open-source, multi-platform, cooperative flight simulator development project. Source code for the entire project is available and licensed under the GNU General Public License.</para>
 
 				<para>The goal of the FlightGear project is to create a sophisticated flight simulator framework for use in research or academic environments, for the development and pursuit of other interesting flight simulation ideas, and as an end-user application.</para>
@@ -508,9 +504,23 @@ docbook source v 2.1
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.flightgear.org/">http://www.flightgear.org/</ulink></para></listitem>
 				</itemizedlist>
 
-			</section>
+			</sect2> <!-- end of FlightGear -->
 
-			<section><title>JSBSim Flight Dynamics Model</title>
+			<sect2><title>X-Plane</title>
+			
+				<para>X-Plane is a flight simulator that reads in the geometric shape of any aircraft and then figures out how that aircraft will fly. It does this via an engineering process called "blade element theory", which involves breaking the aircraft down into many small elements and then finding the forces on each little element many times per second. These forces are then converted into accelerations, which are then integrated to velocities and positions. This gives X-Plane the most realistic flight model available for personal computers.</para>
+
+				<itemizedlist>
+					<listitem><para><emphasis>Author</emphasis>: Austin Meyer <email>austin@x-plane.com</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 8.2, 2005/06/20</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: Proprietary with Free Trial</para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://x-plane.com/">http://x-plane.com/</ulink></para></listitem>
+				</itemizedlist>
+
+			</sect2> <!-- end of X-Plane -->
+
+			<sect2><title>JSBSim Flight Dynamics Model</title>
+			
 				<para>JSBSim is an object-oriented (C++), multi-platform, 6-DOF, Flight Dynamics Model (FDM). It can be run as a standalone, batch-mode flight simulator (no graphical displays), or integrated with FlightGear or other flight simulator.</para>
 
 				<itemizedlist>
@@ -520,9 +530,10 @@ docbook source v 2.1
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://jsbsim.sourceforge.net/">http://jsbsim.sourceforge.net/</ulink></para></listitem>
 				</itemizedlist>
 
-			</section>
+			</sect2> <!-- end of JSBSim Flight Dynamics Model -->
 
-			<section><title>IFT</title>
+			<sect2><title>IFT</title>
+			
 				<para>IFT is a small flight simulator written for the purpose of training
 					pilots not experienced in instrument flight. It includes a couple of
 					VOR and NDB stations and displays. These can be used to exercise basic
@@ -538,31 +549,14 @@ docbook source v 2.1
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://geocities.com/cinarus/IFT.txt">http://geocities.com/cinarus/IFT.txt</ulink></para></listitem>
 
 				</itemizedlist>
-			</section>
+			</sect2> <!-- end of IFT -->
 
-			<section><title>X-Plane</title>
-				<para>X-Plane is a flight simulator that reads in the geometric shape of any aircraft and then figures out how that aircraft will fly. It does this via an engineering process called "blade element theory", which involves breaking the aircraft down into many small elements and then finding the forces on each little element many times per second. These forces are then converted into accelerations, which are then integrated to velocities and positions. This gives X-Plane the most realistic flight model available for personal computers.</para>
+			</sect1>
 
-				<itemizedlist>
-					<listitem><para><emphasis>Author</emphasis>: Austin Meyer <email>austin@x-plane.com</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 8.2, 2005/06/20</para></listitem>
-					<listitem><para><emphasis>Copyright</emphasis>: Proprietary with Free Trial</para></listitem>
-					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://x-plane.com/">http://x-plane.com/</ulink></para></listitem>
-				</itemizedlist>
+			<sect1><title>Navigation Helps</title>
 
-			</section>
-
-			<section><title>OpenGC</title>
-				<para>OpenGC is a multi-platform, multi-simulator, open-source C++ tool for developing and implementing high quality glass cockpit displays for simulated flightdecks. Our goal is simple: support all widely available flight simulators, all widely available operating systems, and provide a selection of gauges that mirrors the diversity of interests within the flightsimming community. I hope you enjoy OpenGC, and encourage you to contribute in any way possible!</para>
-				<itemizedlist>
-					<listitem><para><emphasis>Author</emphasis>: Damion Shelton <email>damion@opengc.org</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 0.56</para></listitem>
-					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="bsd" /></para></listitem>
-					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.opengc.org/">http://www.opengc.org/</ulink></para></listitem>
-				</itemizedlist>
-			</section>
-
-			<section><title>Atlas</title>
+			<sect2><title>Atlas</title>
+			
 				<para>Atlas aims to produce and display high quality charts of the world for users of FlightGear, an open source flight simulator. This is achieved through two main parts: The map creator (simply called Map) and the Atlas viewer.</para>
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: David Luff <email>daveluff@users.sourceforge.net</email> </para></listitem>
@@ -570,9 +564,27 @@ docbook source v 2.1
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://atlas.sourceforge.net/">http://atlas.sourceforge.net/</ulink></para></listitem>
 				</itemizedlist>
-			</section>
+				
+			</sect2> <!-- end of Atlas -->
 
-			<section><title>Tim's Air Navigation Simulator</title>
+			<sect2><title>OpenGC</title>
+			
+				<para>OpenGC is a multi-platform, multi-simulator, open-source C++ tool for developing and implementing high quality glass cockpit displays for simulated flightdecks. Our goal is simple: support all widely available flight simulators, all widely available operating systems, and provide a selection of gauges that mirrors the diversity of interests within the flightsimming community. I hope you enjoy OpenGC, and encourage you to contribute in any way possible!</para>
+				<itemizedlist>
+					<listitem><para><emphasis>Author</emphasis>: Damion Shelton <email>damion@opengc.org</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.56</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="bsd" /></para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.opengc.org/">http://www.opengc.org/</ulink></para></listitem>
+				</itemizedlist>
+				
+			</sect2> <!-- end of OpenGC -->
+
+			</sect1>
+
+			<sect1><title>Others</title>
+
+			<sect2><title>Tim's Air Navigation Simulator</title>
+			
 				<para>This is a Java applet that simulates the operation of <xref linkend="adf" /> and <xref linkend="vor" />
 					instruments. A canvas shows the position of a hypothetical aircraft and
 					two ground based navigational aids, (which can be dragged to arbitrary
@@ -587,12 +599,16 @@ docbook source v 2.1
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.visi.com/~mim/nav/index.html">http://www.visi.com/~mim/nav/index.html</ulink></para></listitem>
 				</itemizedlist>
 
-			</section>
-		</section>
-		<!-- end of Simulation section -->
+			</sect2> <!-- end of Tim's Air Navigation Simulator -->
 
-		<section><title>Training</title>
-			<section><title>PilotPal</title>
+			</sect1>
+			
+		</chapter> <!-- end of Simulation chapter -->
+
+		<chapter><title>Training</title>
+		
+			<sect1><title>PilotPal</title>
+			
 				<para>PilotPal is a Java applet designed to assist (student) pilots studying
 					for the US <xref linkend="faa"/> written examinations. The latest version provides
 					study questions for both the Private Pilot and Instrument examinations.
@@ -605,10 +621,11 @@ docbook source v 2.1
 					<listitem><para><emphasis>Copyright</emphasis>: Freely Distributable</para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.pilotpal.com/">http://www.pilotpal.com/</ulink></para></listitem>
 				</itemizedlist>
-			</section>
-			<!-- end of PilotPal section -->
+				
+			</sect1> <!-- end of PilotPal section -->
 
-			<section><title>NeoKit</title>
+			<sect1><title>NeoKit</title>
+			
 				<para>Description:
 					<itemizedlist mark='opencircle'>
 						<listitem><para>NeoKit &copy; is a Computer Based Training environment dedicated to initial training to Air Traffic Control and Management software,</para></listitem>
@@ -634,13 +651,10 @@ docbook source v 2.1
 					<listitem><para><emphasis>Copyright</emphasis>: Commercial</para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.neosys.fr/neokit">http://www.neosys.fr/neokit</ulink></para></listitem>
 				</itemizedlist>
-			</section>
-			<!-- end of NeoKit section -->
-		</section>
-		<!-- end of Training section -->
-
-	</chapter>
-	<!-- end of Tools chapter -->
+				
+			</sect1> <!-- end of NeoKit section -->
+			
+		</chapter> <!-- end of Training chapter -->
 
 	<chapter><title>Data sources</title>
 		<para>Data sources are of course more important that the tools you can use. And specially the quality of those data.</para>
@@ -657,43 +671,37 @@ docbook source v 2.1
 		</itemizedlist>
 		<para>Usually, the second type is computed with the help of the first one, so it's very important to take care of the accuracy of the environment data : right geographic location (lat,long), up-to-date semi-static data according to an activity (current capacity of an airport), or even new performance data for a new aircraft.</para>
 
-		<section><title>Environment</title>
+		<sect1><title>Environment</title>
 
-			<section><title>DAFIF</title>
+			<sect2><title>DAFIF</title>
 				<para>The Digital Aeronautical Flight Information File (or DAFIF) is a set of files that contain data on airports, navaids, waypoints, special use airspace and other facts relevant to flying in the entire world. This data is provided by the US military, through the <ulink url="http://www.nga.mil">National Geospatial Intelligence Agency (NGA)</ulink>, and is primarily developed for the benefit of military aeronautical operations, but was made available to the general public.</para> 
 				<para>Except for the United States, which is also covered by data provided by the <xref linkend="faa"/>, it is usually the ONLY comprehensive digital data available for pilots. Other countries either don't provide digital data at all, or they do it through a proprietary web interface or in non-reusable formats (like PDF files of scans of paper documents). Even within the US, there is data that is available in the DAFIF which is not in the <xref linkend="faa"/> data. For instance, the navaid.com database generators use the DAFIF data to find ICAO identifiers for airports in Alaska, Hawaii, Puerto Rico and other places where there 3 letter <xref linkend="faa"/> id is not enough data to generate the ICAO id.</para>
 				<para><emphasis>Attention!</emphasis> This source will be removed at october 2006 of the public access for several reasons. Look <ulink url="http://www.navaid.com/dafif.html">here</ulink> for more details and support the existence of DAFIF. You can also help creating a replacement solution <ulink url="http://xcski.com/navdata/bin/view/NavData/WebHome">here</ulink>.</para>
 				<itemizedlist>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="https://164.214.2.62/products/digitalaero/index.cfm">https://164.214.2.62/products/digitalaero/index.cfm</ulink></para></listitem>
 				</itemizedlist>
-			</section>
-			<!-- end of DAFIF section -->
-		</section>
+			</sect2> <!-- end of DAFIF section -->
 
-		<section><title>Dynamic streams</title>
-			<section><title>LiveATC</title>
+		</sect1>
+
+		<sect1><title>Dynamic streams</title>
+
+			<sect2><title>LiveATC</title>
 				<para>This site was launched as a resource for those who enjoy listening to live Air Traffic Control (<acronym>ATC</acronym>)...aviation enthusiasts, student pilots, student air traffic controllers, flight simulation enthusiasts, FBO operators, airline operators, and anyone with an interest in aviation communications.</para>
 				<para>A good site to listen, discover and perhaps also learn the language. They propose several live feeds in USA, Canada, Mexico, Europe, Australia, Columbia, or even Dutch caribean !</para>
 
 				<itemizedlist>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.liveatc.net/">http://www.liveatc.net/</ulink></para></listitem>
 				</itemizedlist>
-			</section>
-		</section>
-		<!-- end of Dynamic streams section -->
+			</sect2>
 
-		<section><title>Geographic sources</title>
+		</sect1> <!-- end of Dynamic streams section -->
+
+		<sect1><title>Geographic sources</title>
 			<para>To be completed.</para>
-		</section>
-		<!-- end of Geographic sources -->
+		</sect1> <!-- end of Geographic sources -->
 
-	</chapter>
-	<!-- end of Data source chapter -->
-
-	<!--
-	<appendix><title>PWET! :-)</title>
-	</appendix>
-	-->
+	</chapter> <!-- end of Data source chapter -->
 
 	<appendix id="about"><title>About the author</title>
 		<para>I was born in 1973 in the little town of <ulink url="http://www.ville-mont-saint-aignan.fr/">Mont St. Aignan</ulink> near <ulink url="http://www.rouentourisme.com/">Rouen</ulink> in <ulink url="http://www.normandy-tourism.org/">Normandie</ulink> (France). I grow up in the south of Ile-de-France (region near Paris) surrounded by wheat and corn fields :-) and a sugar factory where I used to walk in it, smelling and eating sugar.</para>
@@ -703,9 +711,12 @@ docbook source v 2.1
 			<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://nemoworld.info/">http://nemoworld.info/</ulink></para></listitem>
 			<listitem><para><emphasis>Email</emphasis>: <email>nicolas.dufour@nemoworld.info</email></para></listitem>
 		</itemizedlist>
-	</appendix>
+	</appendix>	
 
-	<glossary><title>Used acronyms</title>
+	<appendix><title>Used acronyms</title>
+		<para>Used acronyms in the current document and explanations.</para>
+
+	<glossary>
 		<glossdiv><title>A</title>
 			<glossentry id="adf"><glossterm>ADF</glossterm>
 				<glossdef>
@@ -764,5 +775,7 @@ docbook source v 2.1
 			</glossentry>
 		</glossdiv>
 	</glossary>
+
+	</appendix>
 
 </book>
