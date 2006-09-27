@@ -67,6 +67,12 @@ docbook source v 2.1
 			<para>
 				<revhistory>
 					<revision>
+						<revnumber>2.2</revnumber>
+						<date>2006-09-27</date>
+						<authorinitials>nd</authorinitials>
+						<revremark>Updates and new applications added.</revremark>
+					</revision>
+					<revision>
 						<revnumber>2.1</revnumber>
 						<date>2006-03-13</date>
 						<authorinitials>nd</authorinitials>
@@ -220,6 +226,20 @@ docbook source v 2.1
 
 			</sect2> <!-- end of FlyWay -->
 
+			<sect2><title>OpenFlyers</title>
+				<para>OpenFlyers is an aircrafts (airplanes, gliders, ulms, etc.) online booking system opensource for flying clubs and more generally for everyone who need to share one or more aircrafts planification.</para>
+
+				<para>This booking system is based on the PHP language and the MySQL database. It is opensource (under GPL licence) and can be freely downloaded.</para>
+
+				<itemizedlist>
+					<listitem><para><emphasis>Author</emphasis>: OpenFlyers devteam <email>devteam@openflyers.org</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 1.3.0, 2006/09/06</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://openflyers.org">http://www.bellz.org/flyway/</ulink></para></listitem>
+				</itemizedlist>
+
+			</sect2> <!-- end of OpenFlyers -->
+
 		</sect1> <!-- end of Planning section -->
 
 		<sect1><title>GPS</title>
@@ -241,8 +261,8 @@ docbook source v 2.1
 					www.ngdc.noaa.gov. </para>
 
 				<itemizedlist>
-					<listitem><para><emphasis>Author</emphasis>: Rikard and Henrik Bjorkman <email>hb1@eit.se</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 0.40, September 2005</para></listitem>
+					<listitem><para><emphasis>Author</emphasis>: Rikard and Henrik Bjorkman <email>hb3@eit.se</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.46, September 2005</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.eit.se/chartplotter/">http://www.eit.se/chartplotter/</ulink></para></listitem>
 					<listitem>
@@ -264,9 +284,9 @@ docbook source v 2.1
 				<para>gpsd is a service daemon that monitors a GPS attached to a host computer through a serial or USB port, making its data on the location/course/velocity of the sensor available to be queried on TCP port 2947 of the host computer. With gpsd, multiple GPS client applications (such as navigational and wardriving software) can share access to a GPS without contention or loss of data. Also, gpsd responds to queries with a format that is substantially easier to parse than the NMEA 0183 emitted by most GPSes. The gpsd distribution includes a linkable C service library and a Python module that developers of gpsd-aware applications can use to encapsulate all communication with gpsd.</para>
 
 				<itemizedlist>
-					<listitem><para><emphasis>Author</emphasis>: Remco Treffkorn <email>remco@emc.rvt.com</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 2.32, 2006/03/12</para></listitem>
-					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
+					<listitem><para><emphasis>Author</emphasis>: Eric S. Raymond <email>esr@snark.thyrsus.com</email></para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 2.33, 2006/06/09</para></listitem>
+					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="bsd" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://gpsd.berlios.de/">http://gpsd.berlios.de/</ulink></para></listitem>
 				</itemizedlist>
 			</sect2> <!-- end of GPSd -->
@@ -307,7 +327,7 @@ docbook source v 2.1
 
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Miguel Filgueiras <email>mig@ncc.up.pt</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 6.2.1, 2004/12/07</para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 6.3.1, 2006/07/25</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.ncc.up.pt/gpsman/">http://www.ncc.up.pt/gpsman/</ulink></para></listitem>
 				</itemizedlist>
@@ -530,7 +550,7 @@ docbook source v 2.1
 
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Curtis L. Olson <email>curt0001@flightgear.org</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 0.9.9, 2005/11/17</para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.9.10, 2006/04/05</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.flightgear.org/">http://www.flightgear.org/</ulink></para></listitem>
 				</itemizedlist>
@@ -543,7 +563,7 @@ docbook source v 2.1
 
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Austin Meyer <email>austin@x-plane.com</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 8.2, 2005/06/20</para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 8.50 RC1, 2006/08/21</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: Proprietary with Free Trial</para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://x-plane.com/">http://x-plane.com/</ulink></para></listitem>
 				</itemizedlist>
@@ -603,7 +623,7 @@ docbook source v 2.1
 				<para>OpenGC is a multi-platform, multi-simulator, open-source C++ tool for developing and implementing high quality glass cockpit displays for simulated flightdecks. Our goal is simple: support all widely available flight simulators, all widely available operating systems, and provide a selection of gauges that mirrors the diversity of interests within the flightsimming community. I hope you enjoy OpenGC, and encourage you to contribute in any way possible!</para>
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Damion Shelton <email>damion@opengc.org</email></para></listitem>
-					<listitem><para><emphasis>Latest release</emphasis>: 0.56</para></listitem>
+					<listitem><para><emphasis>Latest release</emphasis>: 0.57, 2006/04/24</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="bsd" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.opengc.org/">http://www.opengc.org/</ulink></para></listitem>
 				</itemizedlist>
@@ -615,7 +635,7 @@ docbook source v 2.1
 				<para>The Glass Cockpit Library (libGC) is created for the Airbus A340 Glass Cockpit (a340gc) which is an Open Source project. The a340gc project is part of the Airbus A340 simulator project of the IRADIS Foundation. The goal of libGC and a340gc is to create a free framework that can be used to build a glass cockpit upon.</para>
 				<para>This is only a part of a bigger project carried by Iradis to create a realistic A340 cockpit with a full view. See this <ulink url="http://www.iradis.org/">website</ulink> for more details.</para>
 				<itemizedlist>
-					<listitem><para><emphasis>Author</emphasis>: Iradis</para></listitem>
+					<listitem><para><emphasis>Author</emphasis>: Iradis <email>info@iradis.fat.org</email></para></listitem>
 					<listitem><para><emphasis>Latest release</emphasis>: 0.3, 2002/05/19</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://a340gc.iradis.org/">http://a340gc.iradis.org/</ulink></para></listitem>
@@ -660,8 +680,8 @@ docbook source v 2.1
 				want to download the applet and install it on your own machine.</para>
 
 			<itemizedlist>
-				<listitem><para><emphasis>Author</emphasis>: Roshan Shrestha <email>shrestha@ct1.nai.net</email></para></listitem>
-				<listitem><para><emphasis>Latest release</emphasis>: Oct 1998</para></listitem>
+				<listitem><para><emphasis>Author</emphasis>: PilotPal.com <email>info@pilotpal.com</email></para></listitem>
+				<listitem><para><emphasis>Latest release</emphasis>: 2006/08/23</para></listitem>
 				<listitem><para><emphasis>Copyright</emphasis>: Freely Distributable</para></listitem>
 				<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.pilotpal.com/">http://www.pilotpal.com/</ulink></para></listitem>
 			</itemizedlist>
@@ -680,15 +700,16 @@ docbook source v 2.1
 			</para>
 			<para>Features:
 				<itemizedlist mark='opencircle'>
-					<listitem><para>Computer Based Training tool</para></listitem>
-					<listitem><para>Lightweight <xref linkend="atc"/> and <xref linkend="atm"/> simulation platform,</para></listitem>
-					<listitem><para>Distributed event-based discret simulation engine,</para></listitem>
-					<listitem><para>MCQ-SQC dialog engine,</para></listitem>
-					<listitem><para>Custom reporting for trainee progress tracking,</para></listitem>
-					<listitem><para>Java based,</para></listitem>
-					<listitem><para>- XML data input and outpout.</para></listitem>
+					<listitem><para>Computer Based Training tool.</para></listitem>
+					<listitem><para>Lightweight <xref linkend="atc"/> and <xref linkend="atm"/> simulation platform.</para></listitem>
+					<listitem><para>Distributed event-based discret simulation engine.</para></listitem>
+					<listitem><para>MCQ-SQC dialog engine.</para></listitem>
+					<listitem><para>Custom reporting for trainee progress tracking.</para></listitem>
+					<listitem><para>Java based.</para></listitem>
+					<listitem><para>XML data input and output.</para></listitem>
 				</itemizedlist>
 			</para>
+			<para></para>
 			<itemizedlist>
 				<listitem><para><emphasis>Author</emphasis>: NeoSYS <email>info@neosys.fr</email></para></listitem>
 				<listitem><para><emphasis>Latest release</emphasis>: 0.4, Jan 2004</para></listitem>
@@ -746,6 +767,19 @@ docbook source v 2.1
 		</sect1> <!-- end of Geographic sources -->
 
 	</chapter> <!-- end of Data source chapter -->
+
+	<chapter><title>Websites and catalogs</title>
+		<sect1><title>Open-Aero.org</title>
+
+			<para>This new website is designed to maintain an up-to-date list of opensource projects for the aeronautic world, and help the maintenance of the this current howto.</para>
+
+			<itemizedlist>
+				<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.open-aero.org/">http://www.open-aero.org/</ulink></para></listitem>
+			</itemizedlist>
+
+		</sect1> <!-- end of Open-Aero.org -->
+
+	</chapter> <!-- end of Websites and catalogs -->
 
 	<appendix id="about"><title>About the author</title>
 		<para>I was born in 1973 in the little town of <ulink url="http://www.ville-mont-saint-aignan.fr/">Mont St. Aignan</ulink> near <ulink url="http://www.rouentourisme.com/">Rouen</ulink> in <ulink url="http://www.normandy-tourism.org/">Normandie</ulink> (France). I grow up in the south of Ile-de-France (region near Paris) surrounded by wheat and corn fields :-) and a sugar factory where I used to walk in it, smelling and eating sugar.</para>
