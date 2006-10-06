@@ -67,6 +67,13 @@ docbook source v 2.1
 			<para>
 				<revhistory>
 					<revision>
+						<revnumber>2.2.1</revnumber>
+						<date>2006-10-06</date>
+						<authorinitials>nd</authorinitials>
+						<revremark>Fixed sections from the will of the authors of the projects
+							and differents updates.</revremark>
+					</revision>
+					<revision>
 						<revnumber>2.2</revnumber>
 						<date>2006-09-27</date>
 						<authorinitials>nd</authorinitials>
@@ -235,7 +242,7 @@ docbook source v 2.1
 					<listitem><para><emphasis>Author</emphasis>: OpenFlyers devteam <email>devteam@openflyers.org</email></para></listitem>
 					<listitem><para><emphasis>Latest release</emphasis>: 1.3.0, 2006/09/06</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
-					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://openflyers.org">http://www.bellz.org/flyway/</ulink></para></listitem>
+					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://openflyers.org">http://openflyers.org</ulink></para></listitem>
 				</itemizedlist>
 
 			</sect2> <!-- end of OpenFlyers -->
@@ -250,33 +257,14 @@ docbook source v 2.1
 					ChartPlotter can be used with user scanned charts saved in JPEG format.
 					The program transforms a latitude, longitude value to a position on the
 					raster image with the help of 2-4 known reference points.</para>
-				<para>First on the wish list of things to do is a converter program so
-					that we can use charts in the BSB format. As I understand there
-					are such programs around but I need to modify the chartplotter
-					program so that it can read the output from the converting
-					program.</para>
-
-				<para>Second on the wish list is to read GSHHS (Global Self-consistant
-					Hierarchical High-resolution Shorelines) found somewere at
-					www.ngdc.noaa.gov. </para>
+				<para>Currently, working on an idea to show multiple vehicules on the map. It's working on the
+					client, but still rudimentary on the server.</para>
 
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Rikard and Henrik Bjorkman <email>hb3@eit.se</email></para></listitem>
 					<listitem><para><emphasis>Latest release</emphasis>: 0.46, September 2005</para></listitem>
 					<listitem><para><emphasis>Copyright</emphasis>: <xref linkend="gpl" /></para></listitem>
 					<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://www.eit.se/chartplotter/">http://www.eit.se/chartplotter/</ulink></para></listitem>
-					<listitem>
-						<para><emphasis>Roadmap</emphasis>: </para>
-						<para>First on the wish list of things to do is a converter program so
-							that we can use charts in the BSB format. As I understand there
-							are such programs around but I need to modify the chartplotter
-							program so that it can read the output from the converting
-							program.</para>
-
-						<para>Second on the wish list is to read GSHHS (Global Self-consistant
-							Hierarchical High-resolution Shorelines) found somewere at
-							<ulink url="http://www.ngdc.noaa.gov/">www.ngdc.noaa.gov</ulink>. </para>
-					</listitem>
 				</itemizedlist>
 			</sect2> <!-- end of ChartPlotter -->
 
@@ -319,11 +307,12 @@ docbook source v 2.1
 					such as distance and bearing from one waypoint to another, course
 					and distance between waypoints in a track, etc.  GPSMan can make
 					cartographic maps to scale, using one of several projections with
-					over plotting of waypoint, route and track data. The map can be saved
-					in Postscript format for printing. GPSMan is a stand-alone Tcl/Tk
-					program that was designed for use at home (as opposed to real-time
-					use). GPSMan currently supports communication with both Garmin and
-					Lowrance receivers.</para>
+					over plotting of waypoint, route and track data.</para>
+				<para>The map can be saved in Postscript and possibly other formats for
+					printing. GPSMan supports communication and real-time logging with both
+					Garmin, Lowrance and Magellan receivers and accepts real-time logging
+					information in NMEA 0183 from any GPS receiver. GPSMan can also be used
+					in command mode (with no graphical interface).</para>
 
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Miguel Filgueiras <email>mig@ncc.up.pt</email></para></listitem>
@@ -544,9 +533,21 @@ docbook source v 2.1
 
 			<sect2><title>FlightGear</title>
 
-				<para>The FlightGear flight simulator project is an open-source, multi-platform, cooperative flight simulator development project. Source code for the entire project is available and licensed under the GNU General Public License.</para>
+				<para>FlightGear is an open-source flight simulator and 3d flight
+					visualizer.  It includes several powerful flight dynamics engines
+					which can model a wide variety of aircraft and helicopters.  In
+					addition it offers a very flexible and powerful aircraft and 3d
+					cockpit animation and modeling system.  It includes a full featured
+					C-like scripting language, and has a variety of I/O capabilities.</para>
 
-				<para>The goal of the FlightGear project is to create a sophisticated flight simulator framework for use in research or academic environments, for the development and pursuit of other interesting flight simulation ideas, and as an end-user application.</para>
+				<para>FlightGear's scenery and terrain system covers the entire globe and
+					is based on SRTM terrain data, DAFIF airport data, and VMAP0 land
+					cover, road, and water data.</para>
+
+				<para>Along with being a full fledged stand alone simulator, FlightGear
+					can be used as a visualization tool for replaying real flight data,
+					matlab/simulink simulations, and many other sources of live or
+					recorded flight data.</para>
 
 				<itemizedlist>
 					<listitem><para><emphasis>Author</emphasis>: Curtis L. Olson <email>curt0001@flightgear.org</email></para></listitem>
@@ -784,7 +785,7 @@ docbook source v 2.1
 	<appendix id="about"><title>About the author</title>
 		<para>I was born in 1973 in the little town of <ulink url="http://www.ville-mont-saint-aignan.fr/">Mont St. Aignan</ulink> near <ulink url="http://www.rouentourisme.com/">Rouen</ulink> in <ulink url="http://www.normandy-tourism.org/">Normandie</ulink> (France). I grow up in the south of Ile-de-France (region near Paris) surrounded by wheat and corn fields :-) and a sugar factory where I used to walk in it, smelling and eating sugar.</para>
 		<para>Always attracted by sciences and particularly geology, I got a degree (BA) of Geophysic/Geochemistry and try to get the next degree but fall back to another direction : computer science. I got my master of computer science applied to geosciences in 1998 at <ulink url="http://www.upmc.fr">Paris</ulink>.</para>
-		<para>I got my first job at <ulink url="http://www.eurocontrol.int/eec/public/subsite_homepage/homepage.html">Eurocontrol</ulink> and it changes a lot my life. Even if I worked for Schlumberger for 6 months (big oil service company), I now work for 6 years for a little french company (<ulink url="http://www.neometsys.fr/">Neometsys</ulink>) in aeronautic.</para>
+		<para>I got my first job at <ulink url="http://www.eurocontrol.int/eec/public/subsite_homepage/homepage.html">Eurocontrol</ulink> and it changes a lot my life. Even if I worked for Schlumberger for 6 months (big oil service company), I now work for 7 years for a little french company (<ulink url="http://www.neometsys.fr/">Neometsys</ulink>) in aeronautic.</para>
 		<itemizedlist>
 			<listitem><para><emphasis>Home Page</emphasis>: <ulink url="http://nemoworld.info/">http://nemoworld.info/</ulink></para></listitem>
 			<listitem><para><emphasis>Email</emphasis>: <email>nicolas.dufour@nemoworld.info</email></para></listitem>
